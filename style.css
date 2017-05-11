@@ -1,0 +1,140 @@
+.container__action30 {
+	background: url(images/action30--desktop.jpg) no-repeat center center;
+}
+.action30 {
+	width:1200px;
+	margin: 0 auto;
+	position: relative;
+	height:260px;
+	overflow: hidden;
+}
+.action30__image30 {
+	background: url(images/action30__30--desktop.svg) no-repeat center center;
+	background-size: contain;
+	height: 187px;
+	width: 357px;
+	float: left;
+	margin: 37px 0 0;
+}
+.action30__text {
+	background: url(images/action30__text--desktop.svg) no-repeat center center;
+	background-size: contain;
+	height: 69px;
+	width: 831px;
+	float: left;
+	margin: 51px 0 0;
+}
+.action30__buttons {
+	float: left;
+	margin: 30px 0 0;
+}
+.action30__button {
+	display: inline-block;
+	margin-right: 31px;
+	cursor: pointer;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	fill:#6FCF97;
+	position: relative;
+}
+.action30__button:hover { 
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01);
+	-webkit-filter: drop-shadow(0px 11px 8px rgba(0,0,0,0.3));
+	filter: drop-shadow(0px 11px 8px rgba(0,0,0,0.3));
+	fill:#219653;
+}
+.action30__button span{
+	height:1em;
+	top:0;
+	bottom: 0;
+	margin: auto;
+	width:100%;
+	text-align: center;
+	font-family: 'Pt sans';
+	color:#fff;
+	font-size: 28px;
+	font-weight: normal;
+	position: absolute;
+	left: 0;
+}
+.action30__button:nth-of-type(1) {
+
+}
+.action30__button:nth-of-type(2) {
+	
+}
+.action30__button:nth-of-type(3) {
+	margin-right: 0px;
+}
+.iconsHelp__dsaDggAS {
+	display: none;
+}
+.action30__desktopSVG {
+	display: block;
+}
+.action30__mobileSVG {
+	display: none;
+}
+@media (max-width:1200px) and (min-width:1000px) {
+	.container__action30 {
+	background-position: 43%;
+	}
+	.action30 {
+		width:1000px;
+	}
+	.scale__asdFGee {
+    	-webkit-transform: scale(.8);
+    	transform: scale(.8);
+    	margin-left: -100px;
+    	margin-right: -100px;
+    	padding: 30px 0 0;
+	}
+}
+
+@media (max-width:1000px) {
+
+
+.container__action30 {
+	background: url(images/action30--mob.jpg) no-repeat center center;
+}
+.action30 {
+	width:320px;
+	height:200px;
+	overflow: visible;
+}
+.action30__image30 {
+	background: url(images/action30__30--mob.svg) no-repeat center center;
+	background-size: contain;
+	height: 102px;
+	width: 180px;
+	float: left;
+	margin: 32px -30px 0 0;
+}
+.action30__text {
+	background: url(images/action30__text--mob.svg) no-repeat center center;
+	background-size: contain;
+	height: 53px;
+	width: 156px;
+	float: left;
+	margin: 73px 0 0;
+}
+
+.action30__desktopSVG {
+	display: none;
+}
+.action30__mobileSVG {
+	display: block;
+}
+.action30__button span {
+	font-size: 14px;
+}
+.action30__buttons {
+	margin-top:10px;
+	text-align:center;
+	margin-left:4px;
+}
+.action30__button {
+	margin-right: 0
+}
+}
